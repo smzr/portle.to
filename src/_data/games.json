@@ -1,0 +1,35 @@
+
+{
+  "items": [
+    {
+      "name": "Wordle",
+      "description": "Guess the hidden word in 6 tries. A new puzzle is available each day.",
+      "url": "https://www.nytimes.com/games/wordle/"
+    },
+    {
+      "name": "Nerdle",
+      "description": "Guess the equation in 6 tries - try classic, mini, speed and pro.",
+      "url": "https://nerdlegame.com/"
+    },
+    {
+      "name": "Semantle",
+      "description": "Guess the mystery word via semantic similarity.",
+      "url": "https://semantle.novalis.org/"
+    },
+    {
+      "name": "Quordle",
+      "description": "Put your skills to the test and solve four Wordles at once!",
+      "url": "https://www.quordle.com/"
+    },
+    {
+      "name": "Heardle",
+      "description": "Guess the song from the intro in as few tries as possible.",
+      "url": "https://www.heardle.app/"
+    },
+    {
+      "name": "Globle",
+      "description": "Use your geography knowledge to figure out the mystery country in as few guesses as possible!",
+      "url": "https://globle-game.com/"
+    }
+  ]
+}

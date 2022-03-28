@@ -1,0 +1,13 @@
+.game-title {
+  display: inline-block;
+  font-size: 1.25em;
+  font-weight: 600;
+  margin: 1em 0 0.5em 0;
+  &.visited {
+    color: $blue;
+    &::before,
+    &::after {
+      background: $blue-light;
+    }
+  }
+}

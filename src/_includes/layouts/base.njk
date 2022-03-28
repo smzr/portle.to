@@ -1,0 +1,25 @@
+{# {% set assetHash = global.random() %} #}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {# {% include "partials/meta-info.html" %} #}
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" media="print" href="/fonts/fonts.css?{{ assetHash }}" onload="this.media='all'" />
+
+    <script src="https://code.iconify.design/2/2.2.0/iconify.min.js"></script>
+  </head>
+  <body>
+    {% include "partials/site-head.njk" %}
+    <main tabindex="-1" id="main-content" class="content">
+      {% block content %}
+      {% include "partials/game-list.njk" %}
+      {% endblock %}
+    </main>
+    {% include "partials/site-foot.njk" %}
+  </body>
+</html>
