@@ -1,4 +1,5 @@
 ---
 layout: layouts/base.njk
-title: portle.to
+title: Daily puzzles
+metaDesc: 'portle.to is a curated directory of daily puzzle games like wordle.'
 ---
