@@ -30,6 +30,11 @@
       "name": "Globle",
       "description": "Use your geography knowledge to figure out the mystery country in as few guesses as possible!",
       "url": "https://globle-game.com/"
+    },
+    {
+      "name": "Framed",
+      "description": "Guess the movie from the images. New movie each day!",
+      "url": "https://framed.wtf/"
     }
   ]
 }
