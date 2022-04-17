@@ -35,6 +35,11 @@
       "name": "Framed",
       "description": "Guess the movie from the images. New movie each day!",
       "url": "https://framed.wtf/"
+    },
+    {
+      "name": "Absurdle",
+      "description": "An adversarial version of Wordle",
+      "url": "https://qntm.org/files/absurdle/absurdle.html"
     }
   ]
 }
