@@ -1,7 +1,10 @@
 <ul class="game-list">
   {% for item in games.items %}
   <li>
-    <a class="game-title" href="{{item.url}}"><span class="iconify-inline" data-icon="fa6-solid:person-running"></span> {{item.name}}</a>
+    <div class="game-title">
+      <img src="https://v1.indieweb-avatar.11ty.dev/{{ item.url | urlencode }}/" class="screenshot screenshot-first-example" loading="lazy" decoding="async" alt="Screenshot of 11ty.dev">
+      <a href="{{item.url}}"><span class="iconify-inline" data-icon="fa6-solid:person-running"></span> {{item.name}}</a>
+    </div>
     <p class="game-description">{{item.description}}</p>
   </li>
   {% endfor %}
